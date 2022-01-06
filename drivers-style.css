@@ -1,0 +1,132 @@
+hr {
+    height: 0.5em;
+    border: 0.3em solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 40%
+}
+
+.hr-no-edit {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+.page-h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.driver-imgs {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+}
+
+.driver-imgs:hover {
+    opacity: 0.7;
+}
+
+.driver-div-left {
+    border-radius: 25%;
+    width: 40em;
+    height: 20em;
+    margin: 3em auto;
+}
+
+.driver-div-left img {
+    width: 12em;
+    height: 12em;
+    margin-left: 1em;
+    margin-right: 1em;
+    float: left;
+    position: relative;
+    top: 20%;
+}
+
+.driver-div-left ul {
+    position: relative;
+    top: 16%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.driver-div-left ul li {
+    font-size: 2em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+}
+
+.driver-div-right {
+    border-radius: 25%;
+    width: 40em;
+    height: 20em;
+    margin: 3em auto;
+}
+
+.driver-div-right img {
+    width: 12em;
+    height: 12em;
+    margin-right: 1em;
+    float: right;
+    position: relative;
+    top: 20%;
+}
+
+.driver-div-right ul {
+    position: relative;
+    top: 16%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.driver-div-right ul li {
+    font-size: 2em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+}
+
+.mercedes img {
+    border: 0.5em solid rgb(39, 218, 209);
+}
+
+.red-bull img {
+    border: 0.5em solid rgb(24, 9, 110);
+}
+
+.ferrari img {
+    border: 0.5em solid rgb(216, 18, 18);
+}
+
+.mclaren img {
+    border: 0.5em solid rgb(248, 114, 5);
+}
+
+.alpine img {
+    border: 0.5em solid rgb(74, 65, 201); 
+}
+
+.alpha-tauri img {
+    border: 0.5em solid rgb(76, 76, 78);  
+}
+
+.aston-martin img {
+    border: 0.5em solid rgb(22, 77, 27);  
+}
+
+.alfa-romeo img {
+    border: 0.5em solid rgb(107, 12, 12);   
+}
+
+.williams img {
+    border: 0.5em solid rgb(31, 46, 255); 
+}
+
+.haas img {
+    border: 0.5em solid rgb(219, 211, 211); 
+}
