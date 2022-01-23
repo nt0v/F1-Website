@@ -121,6 +121,10 @@ body {
     text-align: center;
 }
 
+.p-links:hover {
+    color: orange;
+}
+
 /* Footer */
 
 .footer-main {
