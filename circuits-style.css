@@ -14,7 +14,20 @@ hr {
     background-color: white;
 }
 
+.homepage {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+}
+
+.homepage img {
+    width: 4em;
+    height: 4em;
+}
+
 .page-h1 {
+    margin-top: 0;
     text-align: center;
     font-size: 3em;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -24,17 +37,13 @@ hr {
     margin: 4em auto;
     width: 20em;
     height: 10em;
-    border-radius: 10%;
 }
 
-img {
+.circuit img {
     width: 20em;
     height: 10em;
-    border-radius: 10%;
-}
-
-img:hover {
-    opacity: 0.7;
+    border-radius: 25px;
+    border: 3px solid black;
 }
 
 h2 {

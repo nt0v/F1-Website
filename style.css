@@ -5,7 +5,7 @@ body {
 
 .div-links {
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Be Vietnam Pro', sans-serif;
     text-decoration: none;
 }
@@ -57,6 +57,22 @@ body {
 }
 
 .nav-soc-img:hover {
+    opacity: 0.7;
+}
+
+.top-nav-btn {
+    background-color: red;
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    height: 4em;
+    width: 5em;
+}
+
+.top-nav-btn:hover {
+    background-size: 65%;
+    cursor: pointer;
     opacity: 0.7;
 }
 
@@ -121,8 +137,49 @@ body {
     text-align: center;
 }
 
-.p-links:hover {
-    color: orange;
+/* Left Sidebar */
+
+aside {
+    background-color: rgb(88, 83, 83);
+    height: calc(100vh - 4em);
+    width: 5em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+aside img {
+    position: relative;
+    padding-left: 0.5em;
+    left: 35%;
+    margin: 1em 0 0 0;
+    width: 3em;
+    height: 3em;
+    visibility: hidden;
+}
+
+aside ul {
+    padding-left: 2.5em;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+aside ul li {
+    padding-top: 2em;
+}
+
+aside ul li a {
+    opacity: 0;
+    font-size: 2.5em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 /* Footer */
@@ -149,6 +206,7 @@ body {
     height: 4em;
     background-color: rgb(37, 35, 35);
     text-align: center;
+    z-index: 2000;
 }
 
 .footer p {
